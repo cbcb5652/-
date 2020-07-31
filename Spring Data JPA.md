@@ -1722,7 +1722,7 @@ public class LinkMan {
 
 		1. 需要区分操作主体
   		2. 需要在操作主体的实体类上，添加级联属性（需要添加到多表映射关系的注解上）
-        		3. cascade（配置级联）
+                		3. cascade（配置级联）
 
 级联添加：
 
@@ -2135,7 +2135,7 @@ public void delete(){
          */
         @RequestMapping("/findByLastName")
         public void findByLastName(){
-            List&lt;Customer&gt; result = repository.findByLastName("Bauer");
+            List  <;Customer>; result = repository.findByLastName("Bauer");
             for (Customer customer:result){
                 System.out.println(customer.toString());
             }
