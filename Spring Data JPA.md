@@ -19,25 +19,25 @@ JSP全称是Java Persistence API，即Java持久化API，是SUN公司推出的�
 
 - 标准化
 
-![image-20200616143655586](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200616143655586.png)
+![image-20200616143655586](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200616143655586.png)
 
 - 容器级特性的支持
 
-![image-20200616143746677](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200616143746677.png)
+![image-20200616143746677](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200616143746677.png)
 
 - 简单方便
 
-![image-20200616143758643](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200616143758643.png)
+![image-20200616143758643](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200616143758643.png)
 
 - 查询能力
 
-![image-20200616143831638](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200616143831638.png)
+![image-20200616143831638](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200616143831638.png)
 
 - 高级特性
 
-![image-20200616143902537](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200616143902537.png)
+![image-20200616143902537](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200616143902537.png)
 
-![image-20200616143943300](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200616143943300.png)
+![image-20200616143943300](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200616143943300.png)
 
 ## JPA的基本操作
 
@@ -699,7 +699,7 @@ public class JpqlTest {
 
 ### **概述：**
 
-![image-20200616234933579](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200616234933579.png)
+![image-20200616234933579](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200616234933579.png)
 
 Jpa是一套规范，内部是有接口和抽象类组成的。Hibernate是一套成熟的ORM框架，而且Hibernate实现了JPA规范，所以称hibernate为JPA的一种实现方式，我们使用JPA的Api编程，意味着站在更高的角度上看待问题(面向接口编程)
 
@@ -732,7 +732,7 @@ Spring Data JPA是Spring提供的一套对JPA操作更加高级的封装，是�
 
 ### **运行过程和原理刨析**
 
-![image-20200617095752078](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200617095752078.png)
+![image-20200617095752078](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200617095752078.png)
 
 1. 通过JdkDynamicAopProxy的invoke方法创建了一个动态代理对象
 2. SimpleJpaRepository 当中封装了JPA的操作 (借助JPA的api完成数据库的CRUD)
@@ -1182,13 +1182,13 @@ public class JpqlTest {
 }
 ```
 
-![image-20200617113346714](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200617113346714.png)
+![image-20200617113346714](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200617113346714.png)
 
 ## 动态查询
 
 **Specifications 动态查询**
 
-<img src="C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200617114458178.png" alt="image-20200617114458178" style="zoom:150%;" />
+<img src="https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200617114458178.png" alt="image-20200617114458178" style="zoom:150%;" />
 
 ### 多表之间的关系和操作多表的操作步骤
 
@@ -1777,7 +1777,7 @@ public class LinkMan {
 
 <kbd>cascade = CascadeType.ALL</kbd>
 
-![image-20200709225600924](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200709225600924.png)
+![image-20200709225600924](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200709225600924.png)
 
 多对多操作
 
@@ -1908,7 +1908,7 @@ public void testFindAllByNameLike() throws Exception{
 }
 ```
 
-![image-20200714090325359](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200714090325359.png)
+![image-20200714090325359](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200714090325359.png)
 
 # 第三次总结JPA
 

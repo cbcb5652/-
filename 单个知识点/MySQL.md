@@ -294,11 +294,11 @@ GROUP BY col;
 
 > 数据库数据如下:
 
-![image-20200728112308465](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200728112308465.png)
+![image-20200728112308465](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200728112308465.png)
 
 结果:
 
-![image-20200728112943493](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200728112943493.png)
+![image-20200728112943493](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200728112943493.png)
 
 
 
@@ -423,7 +423,7 @@ ON Customers.cust_id = Orders.cust_id
 
 
 
-![image-20200728120007354](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200728120007354.png)
+![image-20200728120007354](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200728120007354.png)
 
 ## 组合查询
 

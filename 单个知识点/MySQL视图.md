@@ -4,7 +4,7 @@
 
 > **数据库视图**是虚拟表或逻辑表，它被定义为具有连接的SQL SELECT查询语句。因为数据库视图与数据库表类似，它由行和列组成，因此可以根据数据库表查询数据。大多数数据库管理系统(包括MySQL)允许您通过具有一些先决条件的数据库视图来更新基础表中的数据。
 
-![image-20200729094644063](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200729094644063.png)
+![image-20200729094644063](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200729094644063.png)
 
 数据视图是动态的(它与物理模式无关)。当有关联的数据发生变化时，视图也反应了这些数据的变化。
 
@@ -75,7 +75,7 @@ CREATE VIEW SalePerOrder AS
 
 可以使用`show full tables`查看数据库中表和视图的状态
 
-![image-20200729105142730](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200729105142730.png)
+![image-20200729105142730](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200729105142730.png)
 
 > 上图创建的视图之后，当联系的表删除数据的时候，==视图中的数据也会随之变化==
 >
@@ -310,7 +310,7 @@ AS
 
 当视图使用`WITH CASCADED CHECK OPTION`时，MySQL会循环检查视图的规则以及底层视图的规则。
 
-![image-20200729135020940](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200729135020940.png)
+![image-20200729135020940](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200729135020940.png)
 
 ### LOCAL检查选项
 
@@ -318,7 +318,7 @@ AS
 
 与使用WITH CASCADED CHECK OPTION的视图不同，MySQL检查所有依赖视图的规则。
 
-![image-20200729135608955](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200729135608955.png)
+![image-20200729135608955](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200729135608955.png)
 
 ## 管理视图
 

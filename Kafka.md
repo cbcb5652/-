@@ -6,15 +6,15 @@
 
  修改server.properties文件
 
-![image-20200713172808155](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200713172808155.png)
+![image-20200713172808155](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200713172808155.png)
 
-![image-20200713173125582](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200713173125582.png)
+![image-20200713173125582](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200713173125582.png)
 
-![image-20200713173348414](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200713173348414.png)
+![image-20200713173348414](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200713173348414.png)
 
 总结
 
-![image-20200713173419365](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200713173419365.png)
+![image-20200713173419365](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200713173419365.png)
 
 启动kafka：
 
@@ -78,9 +78,9 @@ bin/kafka-topics.sh --zookeeper node01:2181 --list
 bin/kafka-topics.sh --create --zookeeper node01:2181 --topic first --partitions 2 --replication-factor 2
 ```
 
-![image-20200713231439428](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200713231439428.png)
+![image-20200713231439428](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200713231439428.png)
 
-![image-20200713231504127](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200713231504127.png)
+![image-20200713231504127](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200713231504127.png)
 
 选项说明：
 
@@ -92,7 +92,7 @@ bin/kafka-topics.sh --create --zookeeper node01:2181 --topic first --partitions 
 
 查看logs里面的
 
-![image-20200713231644015](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200713231644015.png)
+![image-20200713231644015](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200713231644015.png)
 
 ==分区号==
 
@@ -102,7 +102,7 @@ bin/kafka-topics.sh --create --zookeeper node01:2181 --topic first --partitions 
 bin/kafka-topics.sh --describe --topic first --zookeeper node01:2181
 ```
 
-![image-20200713232953066](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200713232953066.png)
+![image-20200713232953066](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200713232953066.png)
 
 3. 删除topic
 
@@ -134,7 +134,7 @@ bin/kafka-console-consumer.sh --topic first --zookeeper node01:2181 --from-begin
 bin/kafka-topics.sh --zookeeper hadoop102:2181 --alter --topic first --partitions 
 ```
 
-![image-20200714002658515](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200714002658515.png)
+![image-20200714002658515](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200714002658515.png)
 
 https://www.bilibili.com/video/BV1a4411B7V9?p=11
 

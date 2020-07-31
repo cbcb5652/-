@@ -4,53 +4,53 @@
 
 - **确保任务管理器中的服务vmware开启状态**
 
-![image-20200621222723567](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200621222723567.png)
+![image-20200621222723567](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200621222723567.png)
 
 - **确认好VmWare生成的网关地址**
 
-![image-20200621222905879](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200621222905879.png)
+![image-20200621222905879](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200621222905879.png)
 
 - **确认VmNet8网卡已经配置好的IP地址和DNS**
 
-![image-20200621223226962](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200621223226962.png)
+![image-20200621223226962](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200621223226962.png)
 
 - **在Vmware中安装虚拟机并将虚拟机复制三份，放到大小至少有100G的硬盘中。并在虚拟机中打开**
 
-![image-20200621233611733](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200621233611733.png)
+![image-20200621233611733](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200621233611733.png)
 
 安装好虚拟机(**桥接模式**)
 
 复制三个虚拟机
 
-![image-20200621233707817](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200621233707817.png)
+![image-20200621233707817](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200621233707817.png)
 
-![image-20200621233754599](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200621233754599.png)
+![image-20200621233754599](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200621233754599.png)
 
 - **分别给三台虚拟机设置内存**
 
 ==每台机器的内存：===(总内存-2) %3
 
-​	![image-20200621234345369](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200621234345369.png)
+​	![image-20200621234345369](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200621234345369.png)
 
 - **每台虚拟机更改mac地址**
 
 c
 
-![image-20200621235858627](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200621235858627.png)
+![image-20200621235858627](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200621235858627.png)
 
 以上设置三个mac
 
 vi /etc/sysconfig/network-scripts/ifcfg-ens33
 
-![image-20200622002731237](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622002731237.png)
+![image-20200622002731237](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622002731237.png)
 
 vi /etc/sysconfig/network
 
 修改主机名
 
-![image-20200622092138364](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622092138364.png)
+![image-20200622092138364](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622092138364.png)
 
-配置node dns  --->   vi /etc/hosts![image-20200622095043957](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622095043957.png)
+配置node dns  --->   vi /etc/hosts![image-20200622095043957](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622095043957.png)
 
 - **关闭防火墙**
 
@@ -60,17 +60,17 @@ vi /etc/sysconfig/network
 
 **关闭selinux**
 
-![image-20200622100209035](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622100209035.png)
+![image-20200622100209035](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622100209035.png)
 
 进入：vi   /etc/selinux/config
 
-![image-20200622100355865](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622100355865.png)
+![image-20200622100355865](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622100355865.png)
 
 ## 免密登录
 
 1. ssh-keygen -t rsa   ---->    三台机子都做以下的操作
 
-![image-20200622100918932](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622100918932.png)
+![image-20200622100918932](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622100918932.png)
 
 2. 拷贝公钥到同一台机器
 
@@ -116,7 +116,7 @@ scp /root/.ssh/authorized_keys node03:/root/.ssh
 
 配置java环境
 
-![image-20200622112931974](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622112931974.png)
+![image-20200622112931974](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622112931974.png)
 
 解压并配置环境
 
@@ -158,11 +158,11 @@ scp -r jdk1.8.0_60/ node02:$PWD( 当前目录)   ---->    发送给另外的主�
 
 ## zookeeper
 
-![image-20200622175310567](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622175310567.png)
+![image-20200622175310567](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622175310567.png)
 
 
 
-![image-20200622175319781](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622175319781.png)
+![image-20200622175319781](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622175319781.png)
 
 - 下载并解压zookeeper文件
 
@@ -226,7 +226,7 @@ bin/zkServer.sh status    可以查看当前服务器的状态  是follow 还是
 
 bin/zkCli.sh -server node01:2181
 
-![image-20200622220021010](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622220021010.png)
+![image-20200622220021010](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622220021010.png)
 
 操作实例：
 
@@ -242,7 +242,7 @@ create /hello world
 
 create -e /abc 123
 
-![image-20200622220836691](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622220836691.png)
+![image-20200622220836691](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622220836691.png)
 
 **Zookeeper的watch机制**
 
@@ -252,7 +252,7 @@ create -e /abc 123
   - 一次性触发一个Watcher只会触发一次，如果需要继续监听，则需要再次添加Watcher
   - 事件封装：Watcher 得到的事件是被封装过的，包括三个内容：keeperState，eventType，path
 
-![image-20200622222641789](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200622222641789.png)
+![image-20200622222641789](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200622222641789.png)
 
 在一个服务器上添加watch :  get /hello watch
 
@@ -507,7 +507,7 @@ public class zookeeper_api {
 
 广义来说Hadoop指的是一个生态圈
 
-![image-20200623012729473](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200623012729473.png)
+![image-20200623012729473](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200623012729473.png)
 
 ### 编译环境的准备
 
@@ -524,13 +524,13 @@ export MAVEN_OPTS="-Xms4096m -Xmx4096m"
 export PATH=:$MAVEN_HOME/bin:$PATH
 ```
 
-![image-20200624183648039](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200624183648039.png)
+![image-20200624183648039](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200624183648039.png)
 
  [apache-maven-3.5.4-bin.tar.gz](F:\Desktop\apache-maven-3.5.4-bin.tar.gz) 
 
  [findbugs-1.3.9.tar.gz](F:\Desktop\findbugs-1.3.9.tar.gz) 
 
-![image-20200624183819474](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200624183819474.png)
+![image-20200624183819474](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200624183819474.png)
 
 # Hadoop集群搭建
 
@@ -844,11 +844,11 @@ sbin/mr-jobhistory-daemon.sh start historyserver
 - DataNode
 - Secondary NameNode
 
-![image-20200628093411519](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628093411519.png)
+![image-20200628093411519](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628093411519.png)
 
 
 
-![image-20200628093526060](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628093526060.png)
+![image-20200628093526060](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628093526060.png)
 
 1. Client 就是客户端
 
@@ -877,7 +877,7 @@ sbin/mr-jobhistory-daemon.sh start historyserver
 
 **NameNode**
 
-![image-20200628095233870](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628095233870.png)
+![image-20200628095233870](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628095233870.png)
 
 **hdfs的命令**
 
@@ -1029,11 +1029,11 @@ hdfs dfsadmin -setQuota 2 dir 		#给该文件夹下面设置最多上传两个�
 hdfs dfsadmin -clrQuota /user/root/dir  #清楚文件数量限制
 ```
 
-![image-20200628110326000](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628110326000.png)
+![image-20200628110326000](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628110326000.png)
 
 超过限额上传失败
 
-![image-20200628110518422](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628110518422.png)
+![image-20200628110518422](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628110518422.png)
 
 - **空间大小限额**
 
@@ -1078,17 +1078,17 @@ hdfs dfsadmin -safemode leave	#离开安全模式
 hadoop jar /export/servers/hadoop-2.7.5/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.5.jar TestDFSIO -write -nrFiles 10 -fileSize 100MB
 ```
 
-![image-20200628112614380](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628112614380.png)
+![image-20200628112614380](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628112614380.png)
 
-![image-20200628112943924](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628112943924.png)
+![image-20200628112943924](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628112943924.png)
 
 执行完成之后会在跟目录下生产一个文件
 
-![image-20200628113136360](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628113136360.png)
+![image-20200628113136360](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628113136360.png)
 
 而且会当运行的当前目录下生成一个文件log
 
-![image-20200628113330499](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628113330499.png)
+![image-20200628113330499](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628113330499.png)
 
 完成之后查看写入速度结果
 
@@ -1110,11 +1110,11 @@ hadoop jar /export/servers/hadoop-2.7.5/share/hadoop/mapreduce/hadoop-mapreduce-
 
 **hdfs的写入过程:**
 
-![image-20200628114731547](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628114731547.png)
+![image-20200628114731547](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628114731547.png)
 
 
 
-![image-20200628135113032](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200628135113032.png)
+![image-20200628135113032](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200628135113032.png)
 
 
 

@@ -5,7 +5,7 @@
 - 在多个应用系统中，用户只需要登录一次就可以访问任何所有互相信任的应用系统
 - 他包括将这次主要的登录映射到其他应用中用于同一个用户的登录机制。。
 
-![image-20200611104145859](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200611104145859.png)
+![image-20200611104145859](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200611104145859.png)
 
 ## SSL（Secure Socket Layer）
 
@@ -89,7 +89,7 @@ openssl req -new -key /srv/ftp/cas/client/client/client-key.pem -out /srv/ftp/ca
 
 - 生成客户端的签发证书:
 
-![image-20200611112728318](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200611112728318.png)
+![image-20200611112728318](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200611112728318.png)
 
 此时最需要注意的是，该证书只针对于"cas.com" 有效 。
 
@@ -135,7 +135,7 @@ keytool -list -keystore /srv/ftp/cas/client/client.p12/ -storetypepkcs12 -v
 - CAS Server为需要独立部署的web应用
 - CAS Client支持非常多的客户端(指Web应用)，包括Java，.Net,PHP，Perl，Ruby等；
 
-![image-20200611115713173](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200611115713173.png)
+![image-20200611115713173](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200611115713173.png)
 
 一旦你的项目中使用了CAS，那么CAS将作为服务器来访问
 

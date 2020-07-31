@@ -49,7 +49,7 @@
 @RequestParam/@PathVariable:    解析/user/?id=123中的id /解析/user/{username}/blog 中的username
 ```
 
-![image-20200612172457891](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200612172457891.png)
+![image-20200612172457891](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200612172457891.png)
 
 **启动器**
 
@@ -90,13 +90,13 @@
 
 > @PropertySource/@value
 
-![image-20200613140102606](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200613140102606.png)
+![image-20200613140102606](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200613140102606.png)
 
 > @Validated/@Email
 >
 > JSR303校验
 
-![image-20200613140953112](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200613140953112.png)
+![image-20200613140953112](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200613140953112.png)
 
 `@RequestParam/@PathVariable`
 
@@ -171,7 +171,7 @@ person:
 
 可以在一个pojo类上面通过`@configurationProperties(prefix = ""person)`将上面所写是yaml 导入到对应的pojo。但是导入值的时候，需要所有的属性都对应起来
 
-![image-20200613135533920](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200613135533920.png)
+![image-20200613135533920](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200613135533920.png)
 
 ## 配置文件位置及多环境配置
 
@@ -247,17 +247,17 @@ spring.profiles.active=dev   即可 指定application-dev.properties 文件为�
 
 **自动装配**：只需要实现WebMvcConfigurer 就可以定义一个自己的自动装配的类了。
 
-![image-20200613153621196](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200613153621196.png)
+![image-20200613153621196](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200613153621196.png)
 
 Springboot在自动配置很多组件的时候，先看容器中有没有用户自己配置的(如果用户自己配置@bean)，如果有就用用户配置的，如果没有就用自动配置的；如果有些组件可以存在多个，比如我们的视图解析器，就将用户配置的和组件默认的组合起来！、
 
 #### 自动配置取代首页跳转配置
 
-![image-20200613160925223](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200613160925223.png)
+![image-20200613160925223](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200613160925223.png)
 
 以上配置可以取代@Controller里面的默认配置 
 
-![image-20200613160956968](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200613160956968.png)
+![image-20200613160956968](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200613160956968.png)
 
 register可以添加多个，可以取代多个访问跳转到同一个连接。
 
@@ -414,7 +414,7 @@ spring.datasource.type = com.alibaba.druid.pool.DruidDataSource
 
 以下是Druid默认的配置
 
-![image-20200613220150273](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200613220150273.png)
+![image-20200613220150273](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200613220150273.png)
 
 而且使用Druid的时候记得导入log4j的jar
 
@@ -543,7 +543,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 **配置数据库用户的认证和授权，jdbc**
 
-![image-20200614005344521](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200614005344521.png)
+![image-20200614005344521](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200614005344521.png)
 
 spring版本要2.0.9以下才可以呢
 
@@ -634,7 +634,7 @@ public class SwaggerConfig {
 
 5. 测试运行！http://localhost:8844/swagger-ui.html
 
-![image-20200614154031106](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200614154031106.png)
+![image-20200614154031106](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200614154031106.png)
 
 ### 配置Swagger
 
@@ -945,7 +945,7 @@ class RedisApplicationTests {
 }
 ```
 
-![image-20200614224820281](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200614224820281.png)
+![image-20200614224820281](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200614224820281.png)
 
 在企业中，我们所有的pojo类都会序列化
 
@@ -1020,7 +1020,7 @@ Dubbo采用全Spring配置方式，透明化接入应用，对应用没有任何
 
 **快速启动手册：**http://dubbo.apache.org/zh-cn/docs/user/quick-start.html
 
-![image-20200615092342135](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200615092342135.png)
+![image-20200615092342135](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200615092342135.png)
 
 **服务提供者(Provider):** 暴露服务的服务提供方，服务提供者在启动时，向注册中心注册自己提供的服务
 
@@ -1196,7 +1196,7 @@ public class UserService {
 
 启动zookeeper  再启动Dubbo，以及启动提供者类，启动接收者的测试类就可以调用了！
 
-![image-20200615150538889](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200615150538889.png)
+![image-20200615150538889](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200615150538889.png)
 
 
 

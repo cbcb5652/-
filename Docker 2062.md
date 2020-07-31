@@ -34,11 +34,11 @@ Windows，最后发布到Linux！
 
 现在：开发打包部署上线，一套流程做完！
 
-![image-20200602014328814](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200602014328814.png)
+![image-20200602014328814](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200602014328814.png)
 
 Docker给以上的问题，提出解决方案!
 
-![image-20200602014357330](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200602014357330.png)
+![image-20200602014357330](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200602014357330.png)
 
 Docker的思想来自于集装箱!
 
@@ -52,7 +52,7 @@ Docker 通过隔离机制，可以将服务器利用到极致！
 
 ### Docker的历史
 
-![image-20200602015320108](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200602015320108.png)
+![image-20200602015320108](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200602015320108.png)
 
 ```shell
 vm : linux centos 原生镜像(一个电脑!)  隔离：需要开启多个虚拟机！
@@ -65,7 +65,7 @@ Docker是基于GO语言开发的！ 开源项目!
 
 官网：https://www.docker.com/
 
-![image-20200602015805877](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200602015805877.png)
+![image-20200602015805877](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200602015805877.png)
 
 文档地址:https://docs.docker.com/    Docker的文档是超级详细的！！！！！
 
@@ -75,7 +75,7 @@ Docker是基于GO语言开发的！ 开源项目!
 
 > 之前的虚拟机技术
 
-![image-20200603232516672](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200603232516672.png)
+![image-20200603232516672](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200603232516672.png)
 
 虚拟化技术的缺点:
 
@@ -89,7 +89,7 @@ Docker是基于GO语言开发的！ 开源项目!
 
 ==容器化技术不是模拟的一个完整的操作系统==
 
-![image-20200603232734922](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200603232734922.png)
+![image-20200603232734922](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200603232734922.png)
 
 比较docker和虚拟机技术的不同：
 
@@ -107,13 +107,13 @@ Docker：打包镜像发布测试，一键运行
 
 **更便捷的升级和扩容**
 
-![image-20200603233523177](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200603233523177.png)
+![image-20200603233523177](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200603233523177.png)
 
 ## Docker安装
 
 ### Docker的基本组成
 
-![image-20200603233820408](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200603233820408.png)
+![image-20200603233820408](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200603233820408.png)
 
 **镜像(image)：**
 
@@ -141,7 +141,7 @@ Docker Hub(默认是国外的)
 
 > 环境准备
 
-![image-20200603234416646](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200603234416646.png)
+![image-20200603234416646](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200603234416646.png)
 
 > 环境查看
 
@@ -150,7 +150,7 @@ Docker Hub(默认是国外的)
 uname -r   #查看内核
 ```
 
-![image-20200604000145295](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604000145295.png)
+![image-20200604000145295](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604000145295.png)
 
 > 安装
 
@@ -191,14 +191,14 @@ systemctl start docker
 #6. 使用docker version查看是否启动成功
 ```
 
-![image-20200604152916230](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604152916230.png)
+![image-20200604152916230](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604152916230.png)
 
 ```shell
 # 7. hello-world
 docker run hello-world
 ```
 
-![image-20200604153037468](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604153037468.png)
+![image-20200604153037468](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604153037468.png)
 
 ```shell
 # 8. 查看一下下载的这个 hello-world镜像
@@ -224,7 +224,7 @@ rm -rf /var/lib/docker
 1. 找到阿里云镜像服务
 2. 找到镜像加速器
 
-![image-20200604190055182](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604190055182.png)
+![image-20200604190055182](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604190055182.png)
 
 3. 配置使用
 
@@ -239,7 +239,7 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-![image-20200604190534233](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604190534233.png)
+![image-20200604190534233](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604190534233.png)
 
 ### 底层原理
 
@@ -249,14 +249,14 @@ Docker 是一个Client-Server 结构的系统，Docker的守护进程运行在�
 
 DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 
-![image-20200604191008665](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604191008665.png)
+![image-20200604191008665](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604191008665.png)
 
 **Docker为什么比虚拟机快？**
 
 1. Docker有着比虚拟机更少的抽象层
 2. Docker 利用的是宿主机的内核，vm需要是Guest OS。
 
-![image-20200604191126184](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604191126184.png)
+![image-20200604191126184](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604191126184.png)
 
 所以说。新建一个容器的时候，docker不需要像虚拟机一样重新加载一个操作系统的内核，避免引导。虚拟机是加载Guest OS，分钟级别的。而docker是利用 宿主机的操作系统。省略了复杂的过程。秒级！
 
@@ -301,7 +301,7 @@ SIZE		镜像的大小
 
 docker search搜索镜像
 
-![image-20200604192618240](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604192618240.png)
+![image-20200604192618240](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604192618240.png)
 
 **docker pull:**下载镜像
 
@@ -332,7 +332,7 @@ docker.io/library/mysql:latest		#真实地址
 
 ```
 
-![image-20200604193101795](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200604193101795.png)
+![image-20200604193101795](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200604193101795.png)
 
 **docker rmi** 删除镜像！
 
@@ -749,7 +749,7 @@ chenbin.java  test.java
 
 ### 小结
 
-![image-20200609135151270](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609135151270.png)
+![image-20200609135151270](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609135151270.png)
 
 ### 作业练习
 
@@ -793,7 +793,7 @@ root@e6f7ab8c358a:/etc/nginx#
 
 端口暴露的概念
 
-![image-20200609140355909](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609140355909.png)
+![image-20200609140355909](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609140355909.png)
 
 > docker 来装一个tomcat
 
@@ -839,7 +839,7 @@ elasticsearch:7.6.2
 # es是十分耗内存的 1.2G
 ```
 
-![image-20200609145019130](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609145019130.png)
+![image-20200609145019130](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609145019130.png)
 
 ```shell
 # 没有那么耗费内存的启动
@@ -848,7 +848,7 @@ docker run -d --name elasticsearch02 -p 9200:9200 -p 9300:9300 -e "discovery.typ
 # 查看 docker stats
 ```
 
-![image-20200609145924178](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609145924178.png)
+![image-20200609145924178](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609145924178.png)
 
 ```shell
 [root@iZ8vbcc06phmpnew8h8zvdZ home]# curl localhost:9200
@@ -871,7 +871,7 @@ docker run -d --name elasticsearch02 -p 9200:9200 -p 9300:9300 -e "discovery.typ
 }
 ```
 
-![image-20200609150115729](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609150115729.png)
+![image-20200609150115729](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609150115729.png)
 
 ### 可视化
 
@@ -905,11 +905,11 @@ docker run -d -p 8088:9000 \--restart=always -v /var/run/docker.sock:/var/run/do
 
 > Union(联合文件系统)
 
-![image-20200609152605887](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609152605887.png)
+![image-20200609152605887](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609152605887.png)
 
 > Docker镜像加载原理
 
-![image-20200609152848999](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609152848999.png)
+![image-20200609152848999](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609152848999.png)
 
 平时我们在虚拟机的CentOS 都是好几G，为什么Docker这里才200M？
 
@@ -921,7 +921,7 @@ docker run -d -p 8088:9000 \--restart=always -v /var/run/docker.sock:/var/run/do
 
 我们可以去下载一个镜像，注意观察下载的日志输出，可以看到是一层一层下载的！
 
-![image-20200609155529686](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609155529686.png)
+![image-20200609155529686](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609155529686.png)
 
 ```shell
 "RootFS": {
@@ -944,11 +944,11 @@ docker run -d -p 8088:9000 \--restart=always -v /var/run/docker.sock:/var/run/do
 
 举一个简单的例子，假如基于Ubuntu Linux16.04 创建一个新的镜像，这就是镜像的第一层；如果在改镜像中田间python包，改镜像当前已经包含了3个镜像层，如下图所示(这只是一个用于演示的简单例子)
 
-![image-20200609160037393](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609160037393.png)
+![image-20200609160037393](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609160037393.png)
 
 在添加额外的镜像层的同时，镜像始终是当前所有镜像的组合，理解这一点非常重要。下图举一个简单的例子。每个镜像层包含3个文件，而镜像包含了来自两个镜像层的6个文件。
 
-![image-20200609160216783](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609160216783.png)
+![image-20200609160216783](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609160216783.png)
 
 上图中的镜像层跟图中的略有区别，主要目的是便于展示文件
 
@@ -985,7 +985,7 @@ docker commit -m="提交的描述信息" -a="作者" 容器id 目标镜像名:[T
 #4 将我们操作过的容器通过commit提交为一个镜像!我们以后就使用我们修改过的镜像即可，这就是我们自己的一个修改的镜像	
 ```
 
-![image-20200609162806830](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609162806830.png)
+![image-20200609162806830](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609162806830.png)
 
 ## 容器数据卷
 
@@ -1014,11 +1014,11 @@ docker run -it -v 主机目录：容器目录
 # 启动起来的时候我们可以通过 docker inspect	容器id
 ```
 
-![image-20200609164435800](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609164435800.png)
+![image-20200609164435800]https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609164435800.png)
 
 测试文件的同步
 
-![image-20200609164602132](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609164602132.png)
+![image-20200609164602132](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609164602132.png)
 
 再来测试！
 
@@ -1027,7 +1027,7 @@ docker run -it -v 主机目录：容器目录
 3. 启动容器
 4. 容器内的数据依旧是同步的！
 
-![image-20200609164821820](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609164821820.png)
+![image-20200609164821820](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609164821820.png)
 
 好处:我们以后修改只需要再本地修改即可，容器内会自动同步！
 
@@ -1051,7 +1051,7 @@ docker run -it -v 主机目录：容器目录
 [root@iZ8vbcc06phmpnew8h8zvdZ ~]# docker run -d -p 3310:3306 -v /home/mysql/conf:/etc/mysql/conf.d -v /home/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql01 mysql:5.7
 ```
 
-![image-20200609165848497](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200609165848497.png)
+![image-20200609165848497](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200609165848497.png)
 
 ### 具名和匿名挂载
 
@@ -1124,21 +1124,21 @@ CMD /bin/bash
 # 这里的每个命令，就是镜像的一层！
 ```
 
-![image-20200610091729392](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610091729392.png)
+![image-20200610091729392](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610091729392.png)
 
 ```shell
 # 启动自己生成的容器
 ```
 
-![image-20200610092913306](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610092913306.png)
+![image-20200610092913306](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610092913306.png)
 
 这个卷 一定和外部有一个同步的目录！
 
-![image-20200610092955925](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610092955925.png)
+![image-20200610092955925](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610092955925.png)
 
 查看一下卷挂载的路径
 
-![image-20200610093051811](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610093051811.png)
+![image-20200610093051811](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610093051811.png)
 
 
 
@@ -1146,15 +1146,15 @@ CMD /bin/bash
 
 多个mysql 同步数据！
 
-![image-20200610093428575](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610093428575.png)
+![image-20200610093428575](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610093428575.png)
 
 ```shell
 # 启动3个容器，通过我们刚才自己写的镜像启动
 ```
 
-![image-20200610093705755](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610093705755.png)
+![image-20200610093705755](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610093705755.png)
 
-![image-20200610094330620](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610094330620.png)
+![image-20200610094330620](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610094330620.png)
 
 ```shell
 #测试:可以删除docker01，查看一下docker02和docker03是否还可以访问这个文件
@@ -1163,7 +1163,7 @@ CMD /bin/bash
 
 多个mysql实现数据共享
 
-![image-20200610094734015](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610094734015.png)
+![image-20200610094734015](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610094734015.png)
 
 **结论:** 
 
@@ -1184,7 +1184,7 @@ dockerfile 是用来构建docker镜像的文件！命令参数脚本!
 
 github地址上的Dockerfile镜像
 
-![image-20200610095734125](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610095734125.png)
+![image-20200610095734125](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610095734125.png)
 
 很多官方镜像都是基础包，很多功能没有，我们通常会自己搭建自己的镜像
 
@@ -1200,7 +1200,7 @@ github地址上的Dockerfile镜像
 
 4. 每一个指令都会创建提交一个新的镜像层，并提交！
 
-![image-20200610100406666](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610100406666.png)
+![image-20200610100406666](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610100406666.png)
 
 dockerfile是面向开发的，我们以后要发布项目，做镜像，就需要编写dockerfile文件，镜像十分简单!
 
@@ -1237,7 +1237,7 @@ ENV				#构建的时候设置环境变量！
 
 Docker Hub中99%镜像都是从这个基础镜像过来的 FROM scratch，然后配置需要的软件和配置来进行的构建
 
-![image-20200610102735632](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610102735632.png)
+![image-20200610102735632](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610102735632.png)
 
 > 创建一个自己的centos
 
@@ -1269,15 +1269,15 @@ Successfully tagged mycentos:0.1
 
 对比：之前的原生的centos
 
-![image-20200610105023703](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610105023703.png)
+![image-20200610105023703](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610105023703.png)
 
 我们增加之后的镜像
 
-![image-20200610105055113](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610105055113.png)
+![image-20200610105055113](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610105055113.png)
 
 我们可以列出本地进行的变更历史
 
-![image-20200610105216680](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200610105216680.png)
+![image-20200610105216680](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200610105216680.png)
 
 我们平时拿到一个镜像，可以研究一下它是怎么做的了！
 

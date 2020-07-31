@@ -418,7 +418,7 @@ iterator.remove();
 
 高度注意 Map 类集合 K/V 能不能存储null 值的情况，如下表格：
 
-![image-20200615224957123](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200615224957123.png)
+![image-20200615224957123](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200615224957123.png)
 
 **集合的有序性和稳定性**
 

@@ -4,7 +4,7 @@
 >
 > 即对请求进行一些处理；也可以在响应到达客户端之前先对响应进行拦截过滤，即对响应进行一些处理。
 
-![image-20200724084805951](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200724084805951.png)
+![image-20200731113929748](Filter.assets/image-20200731113929748.png)
 
 
 
@@ -14,7 +14,7 @@
 
 ​	Filter的整个生命周期过程的执行，均由Web服务器负责管理。即Filter从创建到销毁的整个过程中方法的调用，都是由Web服务器负责调用执行的，程序员无法控制其执行流程。
 
-![image-20200724100003354](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200724100003354.png)
+![image-20200731113943036](Filter.assets/image-20200731113943036.png)
 
 **基本配置**
 
@@ -202,13 +202,13 @@ filter-mapping中可以不使用url-pattern，但需要指定servlet-name，即�
 >
 > 若请求是由一个Servlet通过RequestDispather的forward()方法转发的，那么这个请求将被<dispatcher/>值为FORWARD的Filter拦截。即当前Filter只会拦截由RequestDispatcher的forward() 方法所转发的请求。其他请求均不拦截
 
-![image-20200724135658507](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200724135658507.png)
+
 
 
 
 > - INCLUDE:当前Filter只会拦截由RequestDispatcher的include()方法所转发的请求。其他均不拦截。
 
-![image-20200724140845475](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200724140845475.png)
+![image-20200724140845475](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589094419617.png)
 
 当应用中存在多个Filter时，其执行顺序与其注册顺序一致。
 

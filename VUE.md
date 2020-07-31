@@ -41,7 +41,7 @@ VUE =  Angular + React
   - 该层向上与视图进行双向数据绑定
   - 向下与Model层通过接口请求进行数据交互
 
-  ![image-20200702112343151](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200702112343151.png)
+  ![image-20200702112343151](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200702112343151.png)
 
 > 为什么要使用MVVM
 
@@ -123,7 +123,7 @@ v-bind:title="message":   鼠标悬停查看
 </script>
 ```
 
-![image-20200702114830608](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200702114830608.png)
+![image-20200702114830608](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200702114830608.png)
 
 ### v-for
 
@@ -493,7 +493,7 @@ npm run dev
 
 效果:
 
-![image-20200708090438679](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200708090438679.png)
+![image-20200708090438679](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200708090438679.png)
 
 **fade 消失动态**
 
@@ -560,7 +560,7 @@ npm run dev
 </html>
 ```
 
-![image-20200708102745623](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200708102745623.png)
+![image-20200708102745623](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200708102745623.png)
 
 **layout布局**
 
@@ -747,13 +747,13 @@ npm run dev
 
 data数据对象的操作
 
-![image-20200708105855692](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200708105855692.png)
+![image-20200708105855692](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200708105855692.png)
 
 > v-on 事件监听
 
 平时我们的写法是<kbd>v-on:click = "method"</kbd>  可以简写为:<kbd>@click = "methood"</kbd>
 
-![image-20200708112415003](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200708112415003.png)
+![image-20200708112415003](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200708112415003.png)
 
 - v-on指令的作用是:为元素绑定事件
 - 事件名不需要写on
@@ -762,7 +762,7 @@ data数据对象的操作
 
 >  使用v-show指令
 
-![image-20200708113337080](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200708113337080.png)
+![image-20200708113337080](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200708113337080.png)
 
 
 

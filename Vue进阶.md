@@ -15,23 +15,23 @@
 - 打开cmd
 - 输入vue ui
 
-![image-20200720142753938](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200720142753938.png)
+![image-20200720142753938](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200720142753938.png)
 
-![image-20200720142810108](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200720142810108.png)
+![image-20200720142810108](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200720142810108.png)
 
 根据提示创建项目 在以下面板，打开以下的功能
 
-![image-20200720143351983](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200720143351983.png)
+![image-20200720143351983](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200720143351983.png)
 
-![image-20200720143358997](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200720143358997.png)
+![image-20200720143358997](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200720143358997.png)
 
-![image-20200720143410951](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200720143410951.png)
+![image-20200720143410951](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200720143410951.png)
 
-![image-20200720143418724](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200720143418724.png)
+![image-20200720143418724](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200720143418724.png)
 
 > 下一步 则按照如下选择
 
-![image-20200720143545467](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200720143545467.png)
+![image-20200720143545467](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200720143545467.png)
 
 
 

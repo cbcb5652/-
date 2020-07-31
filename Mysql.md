@@ -229,6 +229,12 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 
 ![img](https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/63c2909f-0c5f-496f-9fe5-ee9176b31aba.jpg)
 
+### 垂直切分
+
+垂直切分是将一个表按列分成多个表，通常是按照列的关系密集程度进行切分，(可以利用垂直切分将经常使用的列和不经常使用的列切分到不同的表)   ---->   数据库范式
+
+![img](https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/e130e5b8-b19a-4f1e-b860-223040525cf6.jpg)
+
 
 
 

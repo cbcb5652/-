@@ -2,7 +2,7 @@
 
 **源码 + 官方文档**（面试高频问
 
-![1589277382875](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589277382875.png)
+![1589277382875](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589277382875.png)
 
 java.util 工具包，分类
 
@@ -131,13 +131,13 @@ public enum State {
 
 > Lock 接口
 
-![1589281537332](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589281537332.png)
+![1589281537332](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589281537332.png)
 
 
 
-![1589281569868](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589281569868.png)
+![1589281569868](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589281569868.png)
 
-![1589281629142](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589281629142.png)
+![1589281629142](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589281629142.png)
 
 * 公平锁：十分公平，可以先来后到
 * **非公平锁：十分不公平，可以插队(默认)**
@@ -159,7 +159,7 @@ public enum State {
 
 > 生产者，消费者：判断等待，业务，通知
 
-![1589386074811](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589386074811.png)
+![1589386074811](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589386074811.png)
 
 ```java
 package com.chen.pc;
@@ -259,7 +259,7 @@ class Data1{
 
 通过Lock找到Condition
 
-![1589386099207](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589386099207.png)
+![1589386099207](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589386099207.png)
 
 ```java
 package com.chen.pc;
@@ -376,7 +376,7 @@ class Data{
 
 ```
 
-![1589387079461](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589387079461.png)
+![1589387079461](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589387079461.png)
 
 > Condtion 精准的通知和唤醒线程
 
@@ -502,7 +502,7 @@ class Data3{
 }
 ```
 
-![1589387978920](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589387978920.png)
+![1589387978920](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589387978920.png)
 
 
 
@@ -599,7 +599,7 @@ public class SetTest {
 
 > HashMap 不安全
 
-![1589475017105](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589475017105.png)
+![1589475017105](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589475017105.png)
 
 ```java
 package com.chen.unsafe;
@@ -638,7 +638,7 @@ public class MapTest {
 
 ## Callable(简单)
 
-![1589476156499](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589476156499.png)
+![1589476156499](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589476156499.png)
 
 1. 可以有返回值
 2. 可以抛出异常
@@ -835,7 +835,7 @@ public class semaphoreDemo {
 
 # 读写锁
 
-![1589523370670](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589523370670.png)
+![1589523370670](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589523370670.png)
 
 ```java
 package com.chen.rw;
@@ -961,11 +961,11 @@ class MyCache{
 
 队列：
 
-![1589524325639](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589524325639.png)
+![1589524325639](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589524325639.png)
 
 **BlockingQueue**：多线程并发处理，线程池! 
 
-![1589524720792](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589524720792.png)
+![1589524720792](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589524720792.png)
 
 **学会使用队列：四组API**
 
@@ -1184,7 +1184,7 @@ public ThreadPoolExecutor(int corePoolSize,		//核心线程池大小
 
 
 
-![1589527894647](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589527894647.png)
+![1589527894647](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589527894647.png)
 
 > 手动创建一个线程池
 
@@ -1434,13 +1434,13 @@ public class Test {
 
 # ForkJoin
 
-![1589535900671](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589535900671.png)
+![1589535900671](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589535900671.png)
 
 > ForkJoin特点：工作窃取
 
 > ForkJoin
 
-![1589540831787](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589540831787.png)
+![1589540831787](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589540831787.png)
 
 
 
@@ -1647,21 +1647,21 @@ JMM:Java内存模型，不存在东西，概念！约定！
 2. 线程加锁前，必须读取主存中的最新值到工作内存中！
 3. 加锁和解锁是同一把锁
 
-![1589560296796](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589560296796.png)
+![1589560296796](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589560296796.png)
 
 线程工作内存，主内存的八种操作:
 
-![1589560443703](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589560443703.png)
+![1589560443703](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589560443703.png)
 
 `贮存不可见出现的问题。`
 
-![1589560534884](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589560534884.png)
+![1589560534884](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589560534884.png)
 
 # Volatile
 
 程序不知道主内存中的值已经被修改过了
 
-![1589560879765](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589560879765.png)
+![1589560879765](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589560879765.png)
 
 
 
@@ -1752,7 +1752,7 @@ public class VDemo02 {
 1. 保证特定的操作顺序
 2. 可以保证某些变量的内存可见性(利用这些特性，就可以保持)
 
-![1589562059722](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589562059722.png)
+![1589562059722](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589562059722.png)
 
 volatile 可以保证可见性，不能保证原子性,由于内存屏障，可以保证避免指令重排的现象产生!
 
@@ -1964,15 +1964,15 @@ CAS：比较当前工作内存中的值，如果这个值是期望的，那么�
 
 > Unsafe类
 
-![1589564169311](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589564169311.png)
+![1589564169311](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589564169311.png)
 
-![1589564279027](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589564279027.png)
+![1589564279027](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589564279027.png)
 
 
 
 > ABA 问题
 
-![1589564605832](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589564605832.png)
+![1589564605832](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589564605832.png)
 
 ```java
 package com.chen.cas;
@@ -2035,7 +2035,7 @@ public ReentrantLock(boolean fair) {
 
 可重入锁(递归锁)
 
-![1589565740304](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589565740304.png)
+![1589565740304](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589565740304.png)
 
 > Synchronized
 
@@ -2142,7 +2142,7 @@ class Phone2{
 
 spinLock
 
-![1589566348535](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589566348535.png)
+![1589566348535](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589566348535.png)
 
 ```java
 package com.chen.lock;
@@ -2195,7 +2195,7 @@ public class TestSpinLock {
 
 # 死锁
 
-![1589566868827](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589566868827.png)
+![1589566868827](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589566868827.png)
 
 ```java
 package com.chen.lock;
@@ -2253,7 +2253,7 @@ class MyThread implements Runnable{
 
 1. 使用`jps`定位进程号
 
-![1589567220487](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589567220487.png)
+![1589567220487](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589567220487.png)
 
 2. 使用`jstack进程号 `查看进行信息
 

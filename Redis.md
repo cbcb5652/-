@@ -23,13 +23,13 @@ make install
 
 安装成功后，如下目录有文件：
 
-![1589994594710](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589994594710.png)
+![1589994594710](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589994594710.png)
 
 ## 测试性能
 
 **redis-benchmark**是一个压力测试工具
 
-![1589995229841](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589995229841.png) 
+![1589995229841](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589995229841.png) 
 
 简单测试:
 
@@ -38,13 +38,13 @@ make install
 redis-benchmark -h localhost -p 6379 -c 100 -n 100000
 ```
 
-![1589995513578](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589995513578.png)
+![1589995513578](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589995513578.png)
 
 ## 基础的知识
 
 redis默认有16个数据库
 
-![1589995615871](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589995615871.png)
+![1589995615871](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589995615871.png)
 
 默认使用第0个数据库 
 
@@ -91,7 +91,7 @@ Redis是C语言写的；100000+QPS
 
 > 官方文档
 
-![1589996462200](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1589996462200.png)
+![1589996462200](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1589996462200.png)
 
  Redis 是一个开源（BSD许可）的，内存中的数据结构存储系统，它可以用作==数据库==、==缓存==和==消息中间件==。 它支持多种类型的数据结构，如 [字符串（strings）](http://www.redis.cn/topics/data-types-intro.html#strings)， [散列（hashes）](http://www.redis.cn/topics/data-types-intro.html#hashes)， [列表（lists）](http://www.redis.cn/topics/data-types-intro.html#lists)， [集合（sets）](http://www.redis.cn/topics/data-types-intro.html#sets)， [有序集合（sorted sets）](http://www.redis.cn/topics/data-types-intro.html#sorted-sets) 与范围查询， [bitmaps](http://www.redis.cn/topics/data-types-intro.html#bitmaps)， [hyperloglogs](http://www.redis.cn/topics/data-types-intro.html#hyperloglogs) 和[地理空间（geospatial）](http://www.redis.cn/commands/geoadd.html) 索引半径查询。 Redis 内置了 [复制（replication）](http://www.redis.cn/topics/replication.html)，[LUA脚本（Lua scripting）](http://www.redis.cn/commands/eval.html)， [LRU驱动事件（LRU eviction）](http://www.redis.cn/topics/lru-cache.html)，[事务（transactions）](http://www.redis.cn/topics/transactions.html) 和不同级别的 [磁盘持久化（persistence）](http://www.redis.cn/topics/persistence.html)， 并通过 [Redis哨兵（Sentinel）](http://www.redis.cn/topics/sentinel.html)和自动 [分区（Cluster）](http://www.redis.cn/topics/cluster-tutorial.html)提供高可用性（high availability）。 
 
@@ -703,7 +703,7 @@ hash变更的数据 user name age 尤其是用户信息或经常变动的信息�
 
 #### geospatial 地理位置
 
-![1590042907633](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590042907633.png)
+![1590042907633](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590042907633.png)
 
 > getadd
 
@@ -871,7 +871,7 @@ OK
 
 用来记录周一到周日的打卡
 
-![1590139674022](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590139674022.png)
+![1590139674022](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590139674022.png)
 
 查看某一天是否有打卡！
 
@@ -1046,7 +1046,7 @@ QUEUED
 
 如果修改失败获取最新的值就好！
 
-![1590141396851](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590141396851.png)
+![1590141396851](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590141396851.png)
 
 > 监控！ Redis使用乐观锁 面试常问
 
@@ -1115,13 +1115,13 @@ spring.redis.port=6379
 
 > 单位
 
-![1590165872369](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590165872369.png)
+![1590165872369](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590165872369.png)
 
 * 配置文件unit单位 对大小写不敏感
 
 > 包含
 
-![1590165926496](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590165926496.png)
+![1590165926496](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590165926496.png)
 
 就好比SPring，Import
 
@@ -1141,7 +1141,7 @@ daemonize yes# 以守护进程的方式运行，默认是no，我们需要自己
 pidfile /var/run/redis_6379.pid # 如果以后台的方式运行，我们就需要指定一个pid文件
 ```
 
-![1590166137576](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590166137576.png)
+![1590166137576](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590166137576.png)
 
 ```bash
 loglevel notice
@@ -1190,7 +1190,7 @@ maxmemory <bytes>  #redis 配置最大的内存容量
 maxmemory noeviction #内存到达上限后的处理策略
 ```
 
-![1590166782739](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590166782739.png)
+![1590166782739](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590166782739.png)
 
 > APPEND ONLY 模式 aof配置
 
@@ -1210,13 +1210,13 @@ appendfasyc everyesc	#每秒执行一次，可能会丢失一秒的数据
 
 **redis必须持久化**
 
-![1590167124093](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590167124093.png)
+![1590167124093](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590167124093.png)
 
 ==rdb保存的文件是dump.rdb==  都是我们的配置文件中快照中进行配置的！
 
-![1590167283866](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590167283866.png)
+![1590167283866](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590167283866.png)
 
-![1590167290661](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590167290661.png)
+![1590167290661](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590167290661.png)
 
 > 出发机制
 
@@ -1229,7 +1229,7 @@ appendfasyc everyesc	#每秒执行一次，可能会丢失一秒的数据
 1. 只需要将rdb文件放在redis的启动目录下就行 ，redis启动的时候自动检测
 2. 查看需要存在的位置
 
-![1590167553862](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590167553862.png)
+![1590167553862](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590167553862.png)
 
 > 几乎默认的配置就够用了，但是我们还是需要配置
 
@@ -1251,11 +1251,11 @@ appendfasyc everyesc	#每秒执行一次，可能会丢失一秒的数据
 
 > append
 
-![1590199172485](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590199172485.png)
+![1590199172485](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590199172485.png)
 
 以日志的形式来记录每个写操作，将Redis执行过的所有指令记录下来(读操作不记录)，只许追加文件但不可以改写文件，redis启动之初会读取该文件重新构建数据->redis重启的话就根据日志文件的内容将写指令从前写到后执行一次以完成数据恢复工作。
 
-![1590199477535](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590199477535.png)
+![1590199477535](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590199477535.png)
 
 默认是不开启的，我们可以手动配置！我们只需要将appendonly 改为yes就开启了aof！
 
@@ -1263,7 +1263,7 @@ appendfasyc everyesc	#每秒执行一次，可能会丢失一秒的数据
 
 如果这个aof文件有错误，我们可以使用`redis-check-aof  --fix  XXXX` 来修复aof文件
 
-![1590199910408](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590199910408.png)
+![1590199910408](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590199910408.png)
 
 > 优点和缺点
 
@@ -1278,15 +1278,15 @@ appendfasyc everyesc	#每秒执行一次，可能会丢失一秒的数据
 1. 相对于数据文件来说。aof远远大于rdb，修复数据比rdb慢
 2. Aof运行效率要比rdb慢，所以我们redis默认是rdb持久化，而不是aof
 
-![1590200307516](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590200307516.png)
+![1590200307516](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590200307516.png)
 
-![1590200321421](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590200321421.png)
+![1590200321421](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590200321421.png)
 
 ### Redis发布订阅
 
-![1590200506393](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590200506393.png)
+![1590200506393](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590200506393.png)
 
-![1590200577194](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590200577194.png)
+![1590200577194](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590200577194.png)
 
 订阅端:
 
@@ -1315,9 +1315,9 @@ Reading messages... (press Ctrl-C to quit)
 (integer) 1
 ```
 
-![1590201019071](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590201019071.png)
+![1590201019071](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590201019071.png)
 
-![1590201108942](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590201108942.png)
+![1590201108942](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590201108942.png)
 
 使用场景：
 
@@ -1361,9 +1361,9 @@ repl_backlog_histlen:0
 
 我们一般情况下只用配从机就好了！
 
-![1590202742889](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590202742889.png)
+![1590202742889](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590202742889.png)
 
-![1590202756554](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590202756554.png)
+![1590202756554](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590202756554.png)
 
 > 细节
 
@@ -1371,11 +1371,11 @@ repl_backlog_histlen:0
 
 主机写：
 
-![1590202938460](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590202938460.png)
+![1590202938460](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590202938460.png)
 
 从机只能读：
 
-![1590202950338](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590202950338.png)
+![1590202950338](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590202950338.png)
 
 测试：主机断开连接，从机依旧连接到主机的，但是没有写操作！这个时候，主机如果回来了从机依旧可以直接获取到主机的信息！
 
@@ -1383,13 +1383,13 @@ repl_backlog_histlen:0
 
 > 复制原理
 
-![1590203411905](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590203411905.png)
+![1590203411905](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590203411905.png)
 
 > 层层链路
 
 上一个M连接下一个S！
 
-![1590203596889](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590203596889.png)
+![1590203596889](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590203596889.png)
 
 这个时候也可以完成我们的主从复制！
 
@@ -1401,9 +1401,9 @@ repl_backlog_histlen:0
 
 > 概念
 
-![1590203920746](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590203920746.png)
+![1590203920746](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590203920746.png)
 
-![1590203958786](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590203958786.png)
+![1590203958786](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590203958786.png)
 
 > 哨兵模式
 
@@ -1432,7 +1432,7 @@ Redis缓存的使用，极大的提升了性能和效率，特别是数据查询
 
 缓存穿透的概念：用户想要查询一个数据，发现redis内存数据库没有，也就是缓存数据库没有命中，于是向持久层数据库查询。发现也没有，于是本次查询失败。当用户很多的时候，缓存都没有命中，于是都去请求数据库。这会给持久层数据库造成很大的压力，这时候就相当于出现了缓存穿透
 
-![1590213953767](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590213953767.png)
+![1590213953767](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590213953767.png)
 
 > 解决方案
 
@@ -1440,7 +1440,7 @@ Redis缓存的使用，极大的提升了性能和效率，特别是数据查询
 
 布隆过滤器是一种数据结构，对所有可能查询的参数以hash形式存储，在控制层先进行校验，不符合则丢弃。从而避免了对底层系统的查询压力。
 
-![1590214075535](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590214075535.png)
+![1590214075535](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590214075535.png)
 
 但是这种方法会存在两个问题：
 
@@ -1453,19 +1453,19 @@ Redis缓存的使用，极大的提升了性能和效率，特别是数据查询
 
 > 概述
 
-![1590214421329](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590214421329.png)
+![1590214421329](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590214421329.png)
 
 >  解决方案
 
-![1590214485403](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590214485403.png)
+![1590214485403](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590214485403.png)
 
-![1590214494830](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590214494830.png)
+![1590214494830](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590214494830.png)
 
 
 
 #### 缓存雪崩
 
-![1590214584127](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\1590214584127.png)
+![1590214584127](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/1590214584127.png)
 
 
 

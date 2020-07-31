@@ -4,7 +4,7 @@
 
 > 存储过程是存储在数据库中的一段声明性的SQL
 
-![image-20200730093736657](C:\Users\晨边\AppData\Roaming\Typora\typora-user-images\image-20200730093736657.png)
+![image-20200730093736657](https://gitee.com/ChenbinRR/images/raw/master/typora-user-images/image-20200730093736657.png)
 
 **MySQL存储过程的优点**
 
